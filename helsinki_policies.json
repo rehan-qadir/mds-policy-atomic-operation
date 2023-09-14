@@ -1,1 +1,54 @@
-{"data":{"policy":[{"name":"Parking126","policy_id":"58f2e7a3-334a-4693-88a1-dfa55ca8364e","provider_ids":[],"description":"Parking126","currency":null,"start_date":1684317959642.0,"end_date":1686134016149.0,"published_date":1686134015978.0,"prev_policies":["85e423bc-8be9-41ce-b697-567eee108eaf"],"rules":[{"name":"Parking126","rule_id":"9930d9f5-f2cf-4908-ae6a-5bc746bd3b71","rule_type":"count","geographies":["9930d9f5-f2cf-4908-ae6a-5bc746bd3b71"],"states":{},"rule_units":"devices","vehicle_types":["bicycle","scooter"],"propulsion_types":null,"minimum":0,"maximum":null,"rate_amount":null,"rate_recurrence":null,"start_time":null,"end_time":null,"days":[],"messages":null,"value_url":null},{"name":"Parking126","rule_id":"79d79f9f-f6e4-463e-b3e5-47b67ab96a85","rule_type":"count","geographies":["79d79f9f-f6e4-463e-b3e5-47b67ab96a85"],"states":{"available":[],"non_operational":[]},"rule_units":"devices","vehicle_types":["bicycle","scooter"],"propulsion_types":null,"minimum":null,"maximum":0,"rate_amount":null,"rate_recurrence":null,"start_time":null,"end_time":null,"days":[],"messages":null,"value_url":null}]}]},"end_date":null,"updated":1686134016425.0,"version":"1.1.0","deprecation_message":null}
+{
+    "data": {
+        "policy": [
+            {
+                "name": "Low Speed Regulation Weekday",
+                "policy_id": "5ac03189-1c0b-4149-918a-0766e3ec8a06",
+                "provider_ids": [],
+                "description": "Low Speed Regulation Weekday",
+                "currency": null,
+                "start_date": 1633647600000.0,
+                "end_date": null,
+                "published_date": 1633680892675.0,
+                "prev_policies": null,
+                "rules": [
+                    {
+                        "name": "Low Speed Regulation Weekday",
+                        "rule_id": "5ac03189-1c0b-4149-918a-0766e3ec8a06",
+                        "rule_type": "speed",
+                        "geographies": [
+                            "5ac03189-1c0b-4149-918a-0766e3ec8a06"
+                        ],
+                        "states": {
+                            "reserved": []
+                        },
+                        "rule_units": "kph",
+                        "vehicle_types": [
+                            "scooter"
+                        ],
+                        "propulsion_types": null,
+                        "minimum": null,
+                        "maximum": 15,
+                        "rate_amount": null,
+                        "rate_recurrence": null,
+                        "start_time": "00:00:00",
+                        "end_time": "05:00:00",
+                        "days": [
+                            "mon",
+                            "tue",
+                            "wed",
+                            "thu",
+                            "sun"
+                        ],
+                        "messages": null,
+                        "value_url": null
+                    }
+                ]
+            }
+        ]
+    },
+    "end_date": null,
+    "updated": 1686134016425.0,
+    "version": "1.1.0",
+    "deprecation_message": null
+}
